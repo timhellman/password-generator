@@ -47,12 +47,12 @@ if (userNumbersChoice === true) {
 }
 
 console.log(newArray)
-var finalString = ""
+var finalArray = ""
 for (var i = 0; i < userPasswordChoiceLength; i++) {
-  finalString = finalString + newArray[Math.floor(Math.random() * newArray.length)]
+  finalArray = finalArray + newArray[Math.floor(Math.random() * newArray.length)]
 
 }
-console.log(finalString)  
+console.log(finalArray)  
 
 
           //function handleUserUppercase(choice) {
